@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "716107306963",
+    "project_id": "capstone-project-1fab3",
+    "storage_bucket": "capstone-project-1fab3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:716107306963:android:c33ba7d801765779714126",
+        "android_client_info": {
+          "package_name": "com.example.food_court_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2hbp6Q_P8uYNAMcCSovn8ul4HKxPjQSs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

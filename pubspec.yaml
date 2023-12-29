@@ -1,0 +1,88 @@
+name: food_court_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  gap: ^3.0.1
+  cupertino_icons: ^1.0.6
+
+  # maps
+  google_maps_flutter: ^2.5.0
+  geolocator: ^10.1.0
+  geocoding: ^2.1.1
+  google_map_polyline_new: ^0.3.0+2
+  flutter_polyline_points: ^2.0.0
+  http: ^1.1.2
+
+  # database
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.15.2
+  cloud_firestore: ^4.13.5
+  google_sign_in: ^6.2.0
+  
+  fluttertoast: ^8.2.4
+  animated_text_kit: ^4.2.2
+  lottie: ^2.7.0
+  filter_list: ^1.0.2
+  flutter_native_splash: ^2.3.8
+  flutter_riverpod: ^2.4.9
+  figma_squircle: ^0.5.3
+  pinput: ^3.0.1
+  dotted_border: ^2.1.0
+  shared_preferences: ^2.2.2
+  currency_text_input_formatter: ^2.1.13
+  intl: ^0.19.0
+  
+
+
+
+
+flutter_native_splash:
+  image: assets/images/splash-screen.png
+  color: '#448AFF'
+  
+  image_dark: assets/images/splash-screen.png
+  color_dark: '#448AFF'
+
+  android_12: 
+    image: assets/images/splash-screen.png
+    color: '#448AFF'
+  
+    image_dark: assets/images/splash-screen.png
+    color_dark: '#448AFF'
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+    
+
+flutter:
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/mapicons/
+    - assets/images/
+    - assets/images/logo/
+    - assets/images/menu/
+    - assets/fonts/
+
+  fonts:
+    - family: inter
+      fonts:
+        - asset: assets/fonts/Inter-Black.ttf
+        - asset: assets/fonts/Inter-Bold.ttf
+        - asset: assets/fonts/Inter-ExtraBold.ttf
+        - asset: assets/fonts/Inter-ExtraLight.ttf
+        - asset: assets/fonts/Inter-Light.ttf
+        - asset: assets/fonts/Inter-Medium.ttf
+        - asset: assets/fonts/Inter-Regular.ttf
+        - asset: assets/fonts/Inter-SemiBold.ttf
+        - asset: assets/fonts/Inter-Thin.ttf
